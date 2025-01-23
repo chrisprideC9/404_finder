@@ -186,7 +186,7 @@ def main():
 
     st.header("1. Upload Your URLs CSV")
 
-    uploaded_file = st.file_uploader("Upload CSV with 'Address' and 'Status Code' Columns", type=["csv"])
+    uploaded_file = st.file_uploader("Upload CSV of HTML export from Screaming Frog", type=["csv"])
 
     if uploaded_file:
         try:
